@@ -3,7 +3,6 @@ package com.example.battistradagram
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.LayoutInflater
 import android.widget.Toast
 import com.example.battistradagram.databinding.ActivityLoginBinding
 
@@ -19,6 +18,8 @@ class Login : AppCompatActivity() {
         binding.btnLogin.setOnClickListener{
             login()
         }
+
+
     }
 
     private fun login() {
@@ -36,7 +37,6 @@ class Login : AppCompatActivity() {
 
     private fun validateLogin(email: String, password: String): Boolean {
         return email == "admin" && password == "password"
-
     }
 
 }

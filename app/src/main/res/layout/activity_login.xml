@@ -57,4 +57,31 @@
             android:text="@string/login"
             android:layout_gravity="center"/>
     </LinearLayout>
+
+    <!--Sudah Memiliki Akun-->
+    <LinearLayout
+        android:id="@+id/layoutLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding"
+        android:layout_marginBottom="150dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/tvInfoLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:text="@string/Sudah_Memiliki_Akun" />
+
+        <TextView
+            android:id="@+id/tvLoginSekarang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Login_Sekarang" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
