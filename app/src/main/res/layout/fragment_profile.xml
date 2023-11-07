@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment"
+    android:orientation="vertical"
+    android:padding="@dimen/padding">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_person_48"
+            android:contentDescription="@string/image_profile"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="@dimen/padding">
+            <TextView
+                android:id="@+id/tvFullName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/data_fullname_person" />
+            <TextView
+                android:id="@+id/tvJob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/data_job_person"/>
+            <TextView
+                android:id="@+id/tvEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/data_email_person"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/btnEditProfile"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:text="@string/ubah_biodata_profile"
+        android:drawablePadding="16dp"
+        android:gravity="center_vertical"
+        app:drawableStartCompat="@drawable/baseline_edit_24" />
+
+    <TextView
+        android:id="@+id/btnEditEmailPassword"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:text="@string/ubah_email_dan_password"
+        android:drawablePadding="16dp"
+        android:gravity="center_vertical"
+        app:drawableStartCompat="@drawable/baseline_privacy_24" />
+
+    <TextView
+        android:id="@+id/btnKebijakanAplikasi"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:text="@string/kebijakan_aplikasi"
+        android:drawablePadding="16dp"
+        android:gravity="center_vertical"
+        app:drawableStartCompat="@drawable/baseline_notes_24" />
+
+    <TextView
+        android:id="@+id/btnBeriRating"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:text="@string/beri_rating"
+        android:drawablePadding="16dp"
+        android:gravity="center_vertical"
+        app:drawableStartCompat="@drawable/baseline_star_24" />
+
+    <TextView
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:text="@string/keluar_aplikasi"
+        android:drawablePadding="16dp"
+        android:gravity="center_vertical"
+        app:drawableStartCompat="@drawable/baseline_logout_24" />
+
+</LinearLayout>

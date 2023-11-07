@@ -19,7 +19,11 @@ class Login : AppCompatActivity() {
             login()
         }
 
-
+        binding.tvRegisterSekarang.setOnClickListener {
+            val intent = Intent(this, Register::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 
     private fun login() {

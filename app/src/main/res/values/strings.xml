@@ -8,4 +8,23 @@
     <string name="masukkan_kembali_password_anda">Masukkan Kembali Password Anda</string>
     <string name="daftar_sekarang">Daftar Sekarang</string>
     <string name="login">Login</string>
+    <string name="belum_memiliki_akun">Belum Memiliki Akun?</string>
+    <string name="buat_sekarang">Buat Sekarang</string>
+    <string name="beranda">Beranda</string>
+    <string name="bagikan">Bagikan</string>
+    <string name="profil">Profil</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="image_profile">Image Profile</string>
+
+    <!--Data Person-->
+    <string name="data_fullname_person">Anugerah Gumelar Hendar Putera</string>
+    <string name="data_job_person">Android Developer</string>
+    <string name="data_email_person">Agumwhistler@gmail.com</string>
+    <string name="beri_rating">Beri Rating</string>
+    <string name="kebijakan_aplikasi">Kebijakan Aplikasi</string>
+    <string name="ubah_email_dan_password">Ubah Email dan Password</string>
+    <string name="ubah_biodata_profile">Ubah Biodata Profile</string>
+    <string name="keluar_aplikasi">Keluar Aplikasi</string>
 </resources>

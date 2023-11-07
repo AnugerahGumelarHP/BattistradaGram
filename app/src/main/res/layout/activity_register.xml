@@ -47,7 +47,7 @@
             android:inputType="textEmailAddress"/>
 
         <EditText
-            android:id="@+id/ConfirmPassword"
+            android:id="@+id/edtPassword"
             android:layout_width="300dp"
             android:layout_height="50dp"
             android:hint="@string/masukkan_password_anda"

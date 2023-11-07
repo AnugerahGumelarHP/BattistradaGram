@@ -72,16 +72,16 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <TextView
-            android:id="@+id/tvInfoLogin"
+            android:id="@+id/tvInfoRegister"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
-            android:text="@string/Sudah_Memiliki_Akun" />
+            android:text="@string/belum_memiliki_akun" />
 
         <TextView
-            android:id="@+id/tvLoginSekarang"
+            android:id="@+id/tvRegisterSekarang"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/Login_Sekarang" />
+            android:text="@string/buat_sekarang" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
